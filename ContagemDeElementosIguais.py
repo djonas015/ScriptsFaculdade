@@ -1,8 +1,10 @@
 numeros = []
 
-print("Insira 10 números inteiros.")
-print("Depois insira um número extra.")
-print("Verificaremos quantas vezes o numero extra aparece na lista.")
+print("Insira 10 números inteiros. \n"
+      "Depois insira um número extra. \n"
+      "Verificaremos quantas vezes o numero extra aparece na lista.")
+
+
 for i in range(10):
     numero = int(input(f"Digite o {i + 1}° número inteiro: "))
     numeros.append(numero)
