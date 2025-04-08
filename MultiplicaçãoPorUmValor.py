@@ -1,6 +1,7 @@
 numeros = []
 
-print("Digite 6 números inteiros, depois insira um número extra. Multiplicaremos o número extra por todos os 6 números inteiros.")
+print("Digite 6 números inteiros, depois insira um número extra. \n"
+      "Multiplicaremos o número extra por todos os 6 números inteiros.")
 
 for i in range(6):
     n1 = int(input(f"Digite o {i + 1}° número inteiro: "))
