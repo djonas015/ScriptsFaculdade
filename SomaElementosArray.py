@@ -1,3 +1,5 @@
+print("Insira 10 números interios. \n"
+      "Calcularemos todos os números do Array")
 numeros = []
 
 for i in range(10):
