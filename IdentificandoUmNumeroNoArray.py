@@ -1,7 +1,8 @@
 n1 = []
 
-print("Insira 7 números inteiros, depois solicite um número e verificaremos se"
-      " ele se encontra no array")
+print("Insira 7 números inteiros, depois solicite qualquer número. \n"
+      "Verificaremos se o número se encontra no array.")
+
 for i in range(7):
     num = int(input(f"Insira o {i + 1}° número inteiro: "))
     n1.append(num)
