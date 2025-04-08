@@ -1,4 +1,4 @@
-n = int(input("Insira um número e veja a fórmula de Fibonacci: "))
+n = int(input("Insira um número e veja a sequência de Fibonacci: "))
 
 
 def fibonacci(n):
