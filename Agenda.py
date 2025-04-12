@@ -5,7 +5,7 @@ cursor = conn.cursor()
 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS contatos (
-    id INTENGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     nome TEXT NOT NULL,
     telefone TEXT NOT NULL,
     email TEXT
@@ -17,14 +17,13 @@ conn.commit()
 
 
 def add_contato():
-    nome = input("Nome: ")
+    nome = input("Nome: ") 
     telefone = input("Telefone: ")
     email = input("Email: ")
 
-
-cursor.execute("INSERT INTO contatos (nome, telefone, email) VALUES (?, ?, ?)", (nome, telefone, email))
-conn.commit()
-print("Contato adicionado com sucesso! \n")
+    cursor.execute("INSERT INTO contatos (nome, telefone, email) VALUES (?, ?, ?)", (nome, telefone, email))
+    conn.commit()
+    print("Contato adicionado com sucesso! \n")
 
 
 def menu():
