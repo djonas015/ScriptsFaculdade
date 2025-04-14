@@ -17,7 +17,7 @@ conn.commit()
 
 
 def add_contato():
-    nome = input("Nome: ") 
+    nome = input("Nome: ")
     telefone = input("Telefone: ")
     email = input("Email: ")
 
