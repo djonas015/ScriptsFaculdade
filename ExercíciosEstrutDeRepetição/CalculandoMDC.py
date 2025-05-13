@@ -4,6 +4,5 @@ while n2 != 0:
     calculo = n1 % n2
     n1 = n2
     n2 = calculo
-    if n2 == 0:
-        print(n1)
-        break
+
+print(n1)
