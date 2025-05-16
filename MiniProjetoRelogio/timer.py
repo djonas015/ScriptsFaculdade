@@ -8,7 +8,7 @@ while timer > 0:
     h = timer // 3600
     minutos = (timer % 3600) // 60
     segnds = timer % 60
-    print(f"{h:02}:{minutos:02}:{segnds:02}") 
+    print(f"{h:02}:{minutos:02}:{segnds:02}")
     time.sleep(0.08)
     timer -= 1
 
