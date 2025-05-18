@@ -3,6 +3,7 @@ import time
 seg = 0
 min = 0
 horas = 0
+print("RELÓGIO:")
 while True:
     print(f"{horas:02}:{min:02}:{seg:02}")
     time.sleep(1)
