@@ -2,7 +2,7 @@ import pygame
 import time
 
 pygame.init()
-pygame.mixer.init() 
+pygame.mixer.init()
 
 seg = int(input("Segundos: "))
 mits = int(input("Minutos: "))
