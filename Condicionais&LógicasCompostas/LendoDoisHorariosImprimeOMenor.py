@@ -1,0 +1,16 @@
+print("Insira o primeiro horário:")
+h1 = int(input("Horas: "))
+m1 = int(input("Minutos: "))
+s1 = int(input("Segundos: "))
+print(f"{h1:02}:{m1:02}:{s1:02}")
+timer1 = s1 + (h1 * 3600) + (m1 * 60)
+print("\nInsira o segundo horário:")
+h2 = int(input("Horas: "))
+m2 = int(input("Minutos: "))
+s2 = int(input("Segundos: "))
+print(f"{h2:02}:{m2:02}:{s2:02}")
+timer2 = s2 + (h2 * 3600) + (m2 * 60)
+if timer1 > timer2:
+    print(f"\n{h1:02}:{m1:02}:{s1:02} é maior")
+else:
+    print(f"\n{h2:02}:{m2:02}:{s2:02} é maior")
