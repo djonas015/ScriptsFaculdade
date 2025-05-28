@@ -11,8 +11,8 @@ def verif(n):
             if n % i == 0:
                 return False
         return True
- 
-    
+
+
 if verif(primo):
     print(f"O número {primo} é primo")
 else:
