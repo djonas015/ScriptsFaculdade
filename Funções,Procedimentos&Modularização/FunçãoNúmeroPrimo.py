@@ -1,7 +1,5 @@
-n = int(input("Insira n: "))
-
-
-def primo(n):
+def primo():
+    n = int(input("Insira um número: "))
     if n <= 1:
         return False
     elif n == 2:
@@ -13,4 +11,4 @@ def primo(n):
         return True
 
 
-print(primo(n))
+print(primo())
