@@ -5,4 +5,4 @@ def tabuada():
         print(f"{n} X {i} = {resultado}")
 
 
-print(tabuada)
+tabuada()
